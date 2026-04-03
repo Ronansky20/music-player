@@ -1,0 +1,29 @@
+.vinyl-record {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.album-art-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.center-art {
+  position: absolute;
+  top: 50.5%;
+  left: 49.4%;
+  transform: translate(-50%, -50%);
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  mask-image: radial-gradient(
+    circle,
+    transparent 5%,
+    transparent 5.5%,
+    black 5.5%,
+    black 95%,
+    transparent 95%
+  );
+}

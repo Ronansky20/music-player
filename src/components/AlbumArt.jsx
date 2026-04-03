@@ -1,3 +1,5 @@
+import './AlbumArt.css'
+
 function AlbumArt(props) {
     return (
         <div className="album-art-container">

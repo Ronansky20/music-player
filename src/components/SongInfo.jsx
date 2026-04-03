@@ -1,3 +1,5 @@
+import './SongInfo.css'
+
 function SongInfo(props) {
     return (
         <div className="song-info">

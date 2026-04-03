@@ -1,0 +1,34 @@
+.song-info {
+  text-align: center;
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.song-info h1,
+.song-info p {
+  font-family: "Array", sans-serif;
+  font-style: normal;
+  color: #140000;
+  margin: 0;
+  text-align: center; /* Both centered */
+}
+
+.song-info h1 {
+  font-size: 44px;
+  line-height: 51px;
+  margin-bottom: 10px;
+  max-width: 350px; /* Can grow to this width */
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.song-info p {
+  font-size: 12px;
+  line-height: 14px;
+  max-width: 350px; /* Same width */
+  overflow: hidden;
+  white-space: nowrap;
+}
